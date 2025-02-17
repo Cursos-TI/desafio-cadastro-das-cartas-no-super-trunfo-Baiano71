@@ -2,18 +2,18 @@
 
 int main (){
 
-char aluno [50];
-float nota;
+char cidade [50];
+float temperatura;
 
 
-printf("Digite o nome do aluno \n");
-scanf("%s", &aluno);
+printf("Digite o nome da cidade: \n");
+scanf("%s", &cidade);
 
-printf("Digite a nota do aluno: \n");
-scanf("%f", &nota);
+printf("Quantos graus está fazendo na sua cidade? \n");
+scanf("%f", &temperatura);
 
 
-printf("O aluno %s, tirou %f na prova", aluno, nota);
+printf("Na cidade de %s, está fazendo %f, graus de temperatura" cidade, temperatura);
 
 
 return 0;
